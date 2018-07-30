@@ -1,0 +1,28 @@
+{
+  "name": "dotfiles",
+  "version": "0.1.0",
+  "description": "@herberttn does dotfiles",
+  "license": "MIT",
+  "homepage": "https://github.com/herberttn/dotfiles#readme",
+  "author": {
+    "name": "Herbert Treis Neto",
+    "email": "htnetooo@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herberttn/dotfiles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/herberttn/dotfiles/issues"
+  },
+  "keywords": [
+    "dotfiles"
+  ],
+  "private": true,
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
