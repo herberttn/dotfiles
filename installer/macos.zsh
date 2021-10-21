@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env zsh
 
 # based on:
 # - https://github.com/mathiasbynens/dotfiles/blob/ea68bda80a455e149d29156071d4c8472f6b93cb/.macos
@@ -411,22 +411,26 @@ defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 # Kill affected applications                                                  #
 ###############################################################################
 
-for app in \
-  "Activity Monitor" \
-	"cfprefsd" \
-	"Dock" \
-	"Finder" \
-	"Photos" \
-	"SystemUIServer" \
-; do
+appsToKill=(
+  "Activity Monitor"
+  "cfprefsd"
+  "Dock"
+  "Finder"
+  "Photos"
+  "SystemUIServer"
+)
+
+for app in $appsToKill; do
 	echo "Killing ${app}";
 	killall "${app}" &> /dev/null;
 done
 
-for app in \
-	"Google Chrome" \
-	"Safari" \
-; do
+appsToAskAndKill=(
+  "Google Chrome"
+  "Safari"
+)
+
+for app in $appsToAskAndKill; do
   echo "";
 	read -p "Can I kill ${app}? (y/n) " -n 1;
 	echo "";
