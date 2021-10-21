@@ -1,3 +1,6 @@
 #!/usr/bin/env zsh
 
-zsh ./installer/macos.zsh
+sudo -v
+
+zsh installer/brew.zsh
+zsh installer/macos.zsh
