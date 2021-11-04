@@ -12,7 +12,7 @@ brew 'shellcheck'
 brew 'tree'
 
 # meh, probably not permanent
-brew 'awscli'
+# brew 'awscli'
 
 cask 'alt-tab'
 cask 'binance'
@@ -37,5 +37,7 @@ cask 'visual-studio-code'
 
 # meh, probably not permanent
 cask 'bluejeans'
-cask 'hex-fiend'
 cask 'microsoft-teams'
+
+# used to use it
+# cask 'hex-fiend'
