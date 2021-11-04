@@ -421,7 +421,7 @@ appsToKill=(
 )
 
 for app in $appsToKill; do
-	echo "Killing ${app}";
+	echo macos: Killing $app
 	killall "${app}" &> /dev/null;
 done
 
@@ -431,17 +431,17 @@ appsToAskAndKill=(
 )
 
 for app in $appsToAskAndKill; do
-  echo "";
-	read -p "Can I kill ${app}? (y/n) " -n 1;
-	echo "";
+  echo
+	read -qs reply"?macos: Can I kill ${app}? (y/N) ";
+	echo $reply
 
-	if [[ $REPLY =~ ^[Yy]$ ]]; then
-  	echo "Killing ${app}";
+	if [[ $reply =~ ^[Yy]$ ]]; then
+  	echo macos: Killing $app
     killall "${app}" &> /dev/null;
   else
-  	echo "Sparing ${app}";
+    echo macos: Sparing $app
 	fi;
 done
 
-echo "";
-echo "Done, you should probably restart the system.";
+echo
+echo macos: Done, you should probably restart the system.
