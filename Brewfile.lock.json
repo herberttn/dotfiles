@@ -11,7 +11,7 @@
         "revision": "5291cacdb028b661911e37a0191486d0a60a6a4f"
       },
       "homebrew/core": {
-        "revision": "8e0336e1ca838543ede7fd0fc546ea433d3fda25"
+        "revision": "854275fc31b3c2f7a28a4756610b4d424c482a67"
       }
     },
     "brew": {
@@ -498,6 +498,12 @@
         "options": {
           "full_name": "mockuuups-studio"
         }
+      },
+      "parallels": {
+        "version": "17.1.0-51516",
+        "options": {
+          "full_name": "parallels"
+        }
       }
     }
   },
@@ -506,7 +512,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.3.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "8e0336e1ca838543ede7fd0fc546ea433d3fda25",
+        "Homebrew/homebrew-core": "854275fc31b3c2f7a28a4756610b4d424c482a67",
         "CLT": "12.5.0.22.11",
         "Xcode": "13.0",
         "macOS": "11.6.1"

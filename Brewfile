@@ -29,6 +29,7 @@ cask 'maccy'
 cask 'mockuuups-studio' # https://youtu.be/h2xoRkzjQoc?t=775s
 cask 'monitorcontrol'
 cask 'notion'
+cask 'parallels'
 cask 'postman'
 cask 'raycast'
 cask 'rectangle'
