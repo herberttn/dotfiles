@@ -16,15 +16,17 @@ brew 'tree'
 
 cask 'alt-tab'
 cask 'binance'
-cask 'cheatsheet'
+cask 'cheatsheet' # https://youtu.be/h2xoRkzjQoc?t=231s
 cask 'discord'
 cask 'docker'
+cask 'dropzone' # https://youtu.be/h2xoRkzjQoc?t=327s
 cask 'firefox'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'jetbrains-toolbox'
 cask 'kap'
 cask 'maccy'
+cask 'mockuuups-studio' # https://youtu.be/h2xoRkzjQoc?t=775s
 cask 'monitorcontrol'
 cask 'notion'
 cask 'postman'

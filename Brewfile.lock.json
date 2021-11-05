@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "930c8e3c04dcb44813cbc85036c4fc9031dbed6c"
+        "revision": "6ea4618e07c7899294ac36b880bf0659fa5d0db7"
       },
       "homebrew/cask": {
-        "revision": "6c4354d64705515f640af6a2e9e8baa58d49cc19"
+        "revision": "5cc63e093a3688b55758a8b55490d13e1381a634"
       },
       "homebrew/cask-versions": {
-        "revision": "e1330b2d30fd83b63fa922223649524e9f876c0e"
+        "revision": "5291cacdb028b661911e37a0191486d0a60a6a4f"
       },
       "homebrew/core": {
-        "revision": "7e9822527189609e1b1438ca17e402ac73d31739"
+        "revision": "8e0336e1ca838543ede7fd0fc546ea433d3fda25"
       }
     },
     "brew": {
@@ -380,7 +380,7 @@
         }
       },
       "firefox": {
-        "version": "94.0",
+        "version": "94.0.1",
         "options": {
           "full_name": "firefox"
         }
@@ -434,7 +434,7 @@
         }
       },
       "raycast": {
-        "version": "1.25.2",
+        "version": "1.25.3",
         "options": {
           "full_name": "raycast"
         }
@@ -464,7 +464,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.61.2",
+        "version": "1.62.0",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -486,6 +486,18 @@
         "options": {
           "full_name": "microsoft-teams"
         }
+      },
+      "dropzone": {
+        "version": "4.1.9,1438",
+        "options": {
+          "full_name": "dropzone"
+        }
+      },
+      "mockuuups-studio": {
+        "version": "3.2.1",
+        "options": {
+          "full_name": "mockuuups-studio"
+        }
       }
     }
   },
@@ -494,7 +506,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.3.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "7e9822527189609e1b1438ca17e402ac73d31739",
+        "Homebrew/homebrew-core": "8e0336e1ca838543ede7fd0fc546ea433d3fda25",
         "CLT": "12.5.0.22.11",
         "Xcode": "13.0",
         "macOS": "11.6.1"
