@@ -14,6 +14,7 @@ brew 'tree'
 # meh, probably not permanent
 # brew 'awscli'
 
+cask 'a-better-finder-rename' # https://www.publicspace.net/ABetterFinderRename
 cask 'alt-tab'
 cask 'binance'
 cask 'cheatsheet' # https://youtu.be/h2xoRkzjQoc?t=231s
