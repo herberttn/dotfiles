@@ -11,7 +11,7 @@
         "revision": "87e32c82a5b8397b2f2aaf2719b4fa4a392a4b7d"
       },
       "homebrew/core": {
-        "revision": "2bc5fb1b0de96e53110292b4fc5c48eb45761aa6"
+        "revision": "5f739df0991f03e4bdb82ae367c0fd15f62a43f8"
       }
     },
     "brew": {
@@ -302,48 +302,15 @@
             }
           }
         }
-      },
-      "awscli": {
-        "version": "2.3.3",
-        "bottle": {
-          "rebuild": 0,
-          "root_url": "https://ghcr.io/v2/homebrew/core",
-          "files": {
-            "arm64_monterey": {
-              "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:48ef585be9ce450702094c268f1f31fc5bad9580d0afd87e9e8e130f27fbce79",
-              "sha256": "48ef585be9ce450702094c268f1f31fc5bad9580d0afd87e9e8e130f27fbce79"
-            },
-            "arm64_big_sur": {
-              "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:a55c511aba797e986af39429334711a1358369310783cca4bba6a6aab8bb5b55",
-              "sha256": "a55c511aba797e986af39429334711a1358369310783cca4bba6a6aab8bb5b55"
-            },
-            "monterey": {
-              "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:b977001a04c170beec24d70ee43140733c9ae3b191e20b088acfab3fbf948548",
-              "sha256": "b977001a04c170beec24d70ee43140733c9ae3b191e20b088acfab3fbf948548"
-            },
-            "big_sur": {
-              "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:3143f863e40424b6133c1ad87621940bde7dc8e5d5f7504ece73799afa4c49f0",
-              "sha256": "3143f863e40424b6133c1ad87621940bde7dc8e5d5f7504ece73799afa4c49f0"
-            },
-            "catalina": {
-              "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:78975884fd3c18efa3826593b038071c21a30b8ec30b65a8d22b6f297fa86b10",
-              "sha256": "78975884fd3c18efa3826593b038071c21a30b8ec30b65a8d22b6f297fa86b10"
-            },
-            "x86_64_linux": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:c052b02599d27a22b96c58abd36617d17119a699adc3129de6bece79807332d9",
-              "sha256": "c052b02599d27a22b96c58abd36617d17119a699adc3129de6bece79807332d9"
-            }
-          }
-        }
       }
     },
     "cask": {
+      "a-better-finder-rename": {
+        "version": "11.39",
+        "options": {
+          "full_name": "a-better-finder-rename"
+        }
+      },
       "alt-tab": {
         "version": "6.26.0",
         "options": {
@@ -356,12 +323,6 @@
           "full_name": "binance"
         }
       },
-      "cheatsheet": {
-        "version": "1.6",
-        "options": {
-          "full_name": "cheatsheet"
-        }
-      },
       "discord": {
         "version": "0.0.264",
         "options": {
@@ -372,6 +333,12 @@
         "version": "4.2.0,70708",
         "options": {
           "full_name": "docker"
+        }
+      },
+      "dropzone": {
+        "version": "4.2.1,1452",
+        "options": {
+          "full_name": "dropzone"
         }
       },
       "firefox": {
@@ -410,6 +377,12 @@
           "full_name": "maccy"
         }
       },
+      "mockuuups-studio": {
+        "version": "3.2.1",
+        "options": {
+          "full_name": "mockuuups-studio"
+        }
+      },
       "monitorcontrol": {
         "version": "4.0.1",
         "options": {
@@ -420,6 +393,12 @@
         "version": "2.0.19",
         "options": {
           "full_name": "notion"
+        }
+      },
+      "parallels": {
+        "version": "17.1.0-51516",
+        "options": {
+          "full_name": "parallels"
         }
       },
       "postman": {
@@ -470,40 +449,10 @@
           "full_name": "bluejeans"
         }
       },
-      "hex-fiend": {
-        "version": "2.14.1",
-        "options": {
-          "full_name": "hex-fiend"
-        }
-      },
       "microsoft-teams": {
         "version": "1.4.00.29477",
         "options": {
           "full_name": "microsoft-teams"
-        }
-      },
-      "dropzone": {
-        "version": "4.2.1,1452",
-        "options": {
-          "full_name": "dropzone"
-        }
-      },
-      "mockuuups-studio": {
-        "version": "3.2.1",
-        "options": {
-          "full_name": "mockuuups-studio"
-        }
-      },
-      "parallels": {
-        "version": "17.1.0-51516",
-        "options": {
-          "full_name": "parallels"
-        }
-      },
-      "a-better-finder-rename": {
-        "version": "11.39",
-        "options": {
-          "full_name": "a-better-finder-rename"
         }
       }
     }
@@ -513,7 +462,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.3.3",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "2bc5fb1b0de96e53110292b4fc5c48eb45761aa6",
+        "Homebrew/homebrew-core": "5f739df0991f03e4bdb82ae367c0fd15f62a43f8",
         "CLT": "12.5.0.22.11",
         "Xcode": "13.0",
         "macOS": "11.6.1"
