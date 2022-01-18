@@ -5,6 +5,8 @@ tap 'homebrew/core'
 
 brew 'act'
 brew 'gh'
+brew 'git'
+brew 'git-svn'
 brew 'git-revise'
 brew 'jq'
 brew 'nvm'
@@ -37,9 +39,10 @@ cask 'spotify'
 cask 'stremio'
 cask 'twitch'
 cask 'visual-studio-code'
+cask 'vlc'
 
 # meh, probably not permanent
-cask 'bluejeans'
+# cask 'bluejeans'
 cask 'microsoft-teams'
 
 # used to use it
