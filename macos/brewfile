@@ -6,29 +6,24 @@ tap 'homebrew/core'
 brew 'act'
 brew 'gh'
 brew 'git'
-brew 'git-svn'
 brew 'git-revise'
+brew 'git-svn'
 brew 'jq'
 brew 'nvm'
 brew 'shellcheck'
 brew 'tree'
 
-# meh, probably not permanent
-# brew 'awscli'
-
-cask 'a-better-finder-rename' # https://www.publicspace.net/ABetterFinderRename
 cask 'alt-tab'
 cask 'binance'
 cask 'discord'
 cask 'docker'
-cask 'dropzone' # https://youtu.be/h2xoRkzjQoc?t=327s
+cask 'fig'
 cask 'firefox'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'jetbrains-toolbox'
 cask 'kap'
-cask 'maccy'
-cask 'mockuuups-studio' # https://youtu.be/h2xoRkzjQoc?t=775s
+cask 'microsoft-teams'
 cask 'monitorcontrol'
 cask 'notion'
 cask 'parallels'
@@ -41,9 +36,14 @@ cask 'twitch'
 cask 'visual-studio-code'
 cask 'vlc'
 
-# meh, probably not permanent
-# cask 'bluejeans'
-cask 'microsoft-teams'
+# All commented casks and formulas here should be kept in sync with the list in apps.md and the uninstaller in brew.zsh
 
-# used to use it
+# brew 'awscli'
+# cask 'a-better-finder-rename' # shareware
+# cask 'big-mean-folder-machine'# shareware
+# cask 'bluejeans'
+# cask 'cheatsheet' # problematic
+# cask 'dropzone'
 # cask 'hex-fiend'
+# cask 'maccy'
+# cask 'mockuuups-studio'

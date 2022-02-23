@@ -2,5 +2,5 @@
 
 sudo -v
 
-zsh setup/brew.zsh
-zsh setup/macos.zsh
+zsh macos/brew.zsh
+zsh macos/defaults.zsh
