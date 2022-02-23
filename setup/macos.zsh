@@ -88,6 +88,9 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
 
+# Trackpad: Enable swipe navigation
+defaults write NSGlobalDomain AppleEnableSwipeNavigateWithScrolls -bool true
+
 # Trackpad: enable tap to click for this user and for the login screen
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
@@ -132,6 +135,9 @@ sudo systemsetup -settimezone "America/Sao_Paulo" &> /dev/null
 
 # Stop iTunes from responding to the keyboard media keys
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist &> /dev/null
+
+# Magic mouse: Enable swipe navigation
+defaults write NSGlobalDomain AppleEnableMouseSwipeNavigateWithScrolls -bool true
 
 ###############################################################################
 # Energy saving                                                               #
@@ -405,17 +411,23 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 # Google Chrome                                                               #
 ###############################################################################
 
-# Disable the all too sensitive backswipe on trackpads
-defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
+# Delete all customizations so the global ones prevail
+defaults delete com.google.Chrome
+defaults delete com.google.Chrome.canary
+defaults delete com.google.Chrome.dev
 
-# Disable the all too sensitive backswipe on Magic Mouse
-defaults write com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls -bool false
+# Trackpad swipe navigation
+#defaults delete com.google.Chrome AppleEnableSwipeNavigateWithScrolls
+
+# Magic mouse swipe navigation
+#defaults delete com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls
+
+# Expand print dialog by default
+#defaults delete com.google.Chrome PMPrintingExpandedStateForPrint
+#defaults delete com.google.Chrome PMPrintingExpandedStateForPrint2
 
 # Use the system-native print preview dialog
 #defaults write com.google.Chrome DisablePrintPreview -bool true
-
-# Expand the print dialog by default
-defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 
 ###############################################################################
 # Kill affected applications                                                  #
