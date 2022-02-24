@@ -9,16 +9,19 @@ else
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
+local fileLocation=$(dirname ${0:A})/brewfile
+local lockLocation=$(dirname ${0:A})/brewfile.lock.json
+
 echo brew: regenerating brewfile lock
-rm -rfv $(dirname ${0:A})/brewfile.lock.json
+rm -rf $lockLocation
 
-echo brew: installing formulae/casks from the brewfile
-brew bundle --file=brewfile
+echo brew: installing formulas/casks from the brewfile
+brew bundle --file=$fileLocation
 
-echo brew: uninstalling formulae/casks not in the brewfile
-brew bundle --file=brewfile --cleanup
+echo brew: uninstalling formulas/casks not in the brewfile
+brew bundle cleanup --file=$fileLocation --force
 
-echo brew: uninstalling bad formulae/casks
+echo brew: uninstalling bad formulas/casks
 # All casks and formulas here should be kept in sync with brewfile and the list in apps.md
 brew uninstall awscli
 brew uninstall bluejeans

@@ -13,11 +13,12 @@ brew 'nvm'
 brew 'shellcheck'
 brew 'tree'
 
+cask 'a-better-finder-rename'
 cask 'alt-tab'
+cask 'big-mean-folder-machine'
 cask 'binance'
 cask 'discord'
 cask 'docker'
-cask 'fig'
 cask 'firefox'
 cask 'google-chrome'
 cask 'iterm2'
@@ -39,10 +40,8 @@ cask 'vlc'
 # All commented casks and formulas here should be kept in sync with the list in apps.md and the uninstaller in brew.zsh
 
 # brew 'awscli'
-# cask 'a-better-finder-rename' # shareware
-# cask 'big-mean-folder-machine'# shareware
 # cask 'bluejeans'
-# cask 'cheatsheet' # problematic
+# cask 'cheatsheet'
 # cask 'dropzone'
 # cask 'hex-fiend'
 # cask 'maccy'
