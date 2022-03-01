@@ -9,8 +9,9 @@ else
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-local fileLocation=$(dirname ${0:A})/brewfile
-local lockLocation=$(dirname ${0:A})/brewfile.lock.json
+local here=$(dirname ${0:A})
+local fileLocation=$here/brewfile
+local lockLocation=$here/brewfile.lock.json
 
 echo brew: regenerating brewfile lock
 rm -rf $lockLocation

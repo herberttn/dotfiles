@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "3b7cba3e1c32e5908f8f688033bd614195c020d7"
+        "revision": "31568bb54af6faf32b7d2bbaf53d8e82c1e50e8d"
       },
       "homebrew/cask": {
-        "revision": "4b8f5edd1152f340fd592db259ca5629765354ff"
+        "revision": "4bcfb07eb53765d02f7f6b5e18e8c48386691b7a"
       },
       "homebrew/cask-versions": {
-        "revision": "1835bfac53aa7bf44c26c5e41a94c86986e11bfe"
+        "revision": "c17a35080ba68040ba0c1fd37f64551c42e9ac24"
       },
       "homebrew/core": {
-        "revision": "689aebf4524cec7732c0d807daaeef7b4a8b3fa6"
+        "revision": "3168e7ed514081cacd55b989a4009a249f503f61"
       }
     },
     "brew": {
@@ -359,7 +359,7 @@
     },
     "cask": {
       "a-better-finder-rename": {
-        "version": "11.43",
+        "version": "11.44",
         "options": {
           "full_name": "a-better-finder-rename"
         }
@@ -425,7 +425,7 @@
         }
       },
       "microsoft-teams": {
-        "version": "1.5.00.2570",
+        "version": "1.5.00.4683",
         "options": {
           "full_name": "microsoft-teams"
         }
@@ -449,19 +449,19 @@
         }
       },
       "postman": {
-        "version": "9.13.0",
+        "version": "9.14.0",
         "options": {
           "full_name": "postman"
         }
       },
       "raycast": {
-        "version": "1.29.0",
+        "version": "1.29.1",
         "options": {
           "full_name": "raycast"
         }
       },
       "rectangle": {
-        "version": "0.51,57",
+        "version": "0.53,59",
         "options": {
           "full_name": "rectangle"
         }
@@ -501,9 +501,9 @@
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.3.16",
+        "HOMEBREW_VERSION": "3.4.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "689aebf4524cec7732c0d807daaeef7b4a8b3fa6",
+        "Homebrew/homebrew-core": "3168e7ed514081cacd55b989a4009a249f503f61",
         "CLT": "12.5.0.22.11",
         "Xcode": "13.2.1",
         "macOS": "12.2.1"
