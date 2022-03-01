@@ -1,0 +1,73 @@
+[apply]
+  whitespace = fix
+[branch]
+  autoSetupRebase = always
+  sort = refname
+[checkout]
+  defaultRemote = origin
+  guess = true
+  workers = -1 # use number of logical cores available
+[clean]
+  requireForce = true
+[clone]
+  defaultRemoteName = origin
+[color]
+  advice = auto
+  branch = auto
+  diff = auto
+  grep = auto
+  interactive = auto
+  push = auto
+  remote = auto
+  showBranch = auto
+  status = auto
+  transport = auto
+  ui = auto
+[column]
+  ui = never
+[commit]
+  cleanup = strip
+[core]
+	autocrlf = input
+	eol = lf
+  filemode = false
+  safecrlf = true
+  warnAmbiguousRefs = true
+  whitespace = blank-at-eof,blank-at-eol,tab-in-indent,tabwidth=2
+[diff]
+  relative = true
+[fetch]
+  prune = true
+  pruneTags = true
+  showForcedUpdates = true
+[help]
+	autoCorrect = prompt
+[index]
+	threads = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[push]
+	default = simple
+	useForceIfIncludes = true
+[rebase]
+  autoStash = true
+  missingCommitsCheck = error
+  stat = true
+[reset]
+  quiet = false
+[status]
+  aheadBehind = true
+  branch = true
+  relativePaths = false
+  showStash = true
+  showUntrackedFiles = all
+[stash]
+  showIncludeUntracked = true
+  showPatch = true
+  showStat = true
+[user]
+	email = 5903869+herberttn@users.noreply.github.com
+	name = herberttn
+	useConfigOnly = true
