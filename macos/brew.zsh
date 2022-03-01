@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
 sudo -v
+local here=$(dirname ${0:A})
 
 if which brew &> /dev/null; then
   echo brew: already installed
@@ -9,7 +10,6 @@ else
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-local here=$(dirname ${0:A})
 local fileLocation=$here/brewfile
 local lockLocation=$here/brewfile.lock.json
 
