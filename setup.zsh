@@ -6,3 +6,4 @@ zsh macos/brew.zsh
 zsh macos/defaults.zsh
 
 ln -s user/.gitconfig ~/.gitconfig
+ln -s user/.zshrc ~/.zshrc
