@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name           herberttn/npm-increased-width
+@namespace      herberttn
+@description    Better width for big screens
+@version        1.0.0
+@author         herberttn
+@license        MIT
+@homepageURL    https://github.com/herberttn/dotstyles
+@supportURL     https://github.com/herberttn/dotstyles/issues
+@updateURL      https://raw.githubusercontent.com/herberttn/dotstyles/main/styles/npm-increased-width.user.css
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("npmjs.com") {
+
+  @media screen and (min-width: 1200px) {
+    /* container below the tabs */
+    ._36ae70e9 {
+      max-width: 80%;
+    }
+
+    /* readme container */
+    ._6620a4fd {
+      width: 75%;
+      max-width: 75%;
+    }
+
+    /* sidebar container */
+    .fdbf4038 {
+      width: 25%;
+      max-width: 25%;
+    }
+  }
+
+}

@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name           herberttn/youtube-scrollable-watch-next
+@namespace      herberttn
+@description    Enable scrolling the watch next panel instead of the whole page
+@version        1.0.0
+@author         herberttn
+@license        MIT
+@homepageURL    https://github.com/herberttn/dotstyles
+@supportURL     https://github.com/herberttn/dotstyles/issues
+@updateURL      https://raw.githubusercontent.com/herberttn/dotstyles/main/styles/youtube-scrollable-watch-next.user.css
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+
+  .ytd-watch-next-secondary-results-renderer .ytd-item-section-renderer#contents {
+    height: 100vh !important;
+    overflow-y: scroll !important;
+  }
+
+}

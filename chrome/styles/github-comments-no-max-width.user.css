@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name           herberttn/github-comments-no-max-width
+@namespace      herberttn
+@description    Removes max-width on comment containers
+@version        1.0.0
+@author         herberttn
+@license        MIT
+@homepageURL    https://github.com/herberttn/dotstyles
+@supportURL     https://github.com/herberttn/dotstyles/issues
+@updateURL      https://raw.githubusercontent.com/herberttn/dotstyles/main/styles/github-comments-no-max-width.user.css
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+
+  .comment-holder,
+  .inline-comments .inline-comment-form,
+  .inline-comments .inline-comment-form-container {
+    max-width: none;
+  }
+
+}

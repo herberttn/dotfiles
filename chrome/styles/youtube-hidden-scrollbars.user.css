@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           herberttn/youtube-hidden-scrollbars
+@namespace      herberttn
+@description    Hide all scrollbars
+@version        1.0.0
+@author         herberttn
+@license        MIT
+@homepageURL    https://github.com/herberttn/dotstyles
+@supportURL     https://github.com/herberttn/dotstyles/issues
+@updateURL      https://raw.githubusercontent.com/herberttn/dotstyles/main/styles/youtube-hidden-scrollbars.user.css
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+}

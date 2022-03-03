@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           herberttn/ikariam-wiki-increased-width
+@namespace      herberttn
+@description    Better width for big screens
+@version        1.0.0
+@author         herberttn
+@license        MIT
+@homepageURL    https://github.com/herberttn/dotstyles
+@supportURL     https://github.com/herberttn/dotstyles/issues
+@updateURL      https://raw.githubusercontent.com/herberttn/dotstyles/main/styles/ikariam-wiki-increased-width.user.css
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("ikariam.fandom.com") {
+
+  .resizable-container {
+    max-width: 80%;
+  }
+
+}
