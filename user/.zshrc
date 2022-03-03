@@ -46,9 +46,11 @@ nvm use stable
 alias gc='git reset HEAD --hard && git clean -fd && git pull'
 alias gs='git status'
 
-local here=$(dirname ${0:A})
+local __filename=~/.zshrc
+local __filename=${__filename:A}
+local __dirname=$(dirname $__filename)
 
-for file in $(find $here/private -type f -name '*.zsh'); do
+for file in $(find $__dirname/private -type f -name '*.zsh'); do
   source $file
 done
 

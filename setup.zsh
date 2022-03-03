@@ -1,10 +1,10 @@
 #!/usr/bin/env zsh
 
 sudo -v
-local here=$(dirname ${0:A})
+local __dirname=$(dirname ${0:A})
 
 zsh macos/brew.zsh
 zsh macos/defaults.zsh
 
-ln -s $here/user/.gitconfig ~/.gitconfig
-ln -s $here/user/.zshrc ~/.zshrc
+ln -s $__dirname/user/.gitconfig ~/.gitconfig
+ln -s $__dirname/user/.zshrc ~/.zshrc
