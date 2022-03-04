@@ -1,3 +1,18 @@
+# Operating system specific magic files
+**/.DS_Store
+**/thumbs.db
+
+# Avoid mistaken commits
+**/*.7z
+**/*.ear
+**/*.gz
+**/*.log
+**/*.rar
+**/*.tar
+**/*.tgz
+**/*.war
+**/*.zip
+
 # References:
 # - https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 # - https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
@@ -24,4 +39,5 @@
 # Editor-based Rest Client
 .idea/httpRequests
 
+# Sensitive information
 **/private/
