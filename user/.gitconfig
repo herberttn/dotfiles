@@ -67,6 +67,10 @@
   showIncludeUntracked = true
   showPatch = true
   showStat = true
+[svn]
+  rmdir = true
+[svn-remote "svn"]
+  automkdirs = false
 [user]
 	email = 5903869+herberttn@users.noreply.github.com
 	name = herberttn
