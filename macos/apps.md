@@ -21,7 +21,6 @@ Currently using
 - cask [`rectangle`](https://formulae.brew.sh/cask/rectangle) from [`gh/rxhanson/rectangle`](https://github.com/rxhanson/rectangle) and https://rectangleapp.com
 - cask [`spotify`](https://formulae.brew.sh/cask/spotify) from [`gh/spotify`](https://github.com/spotify) and https://www.spotify.com
 - cask [`stremio`](https://formulae.brew.sh/cask/stremio) from [`gh/stremio`](https://github.com/stremio) and https://www.stremio.com
-- cask [`twitch`](https://formulae.brew.sh/cask/twitch) from [`gh/twitchtv`](https://github.com/twitchtv) and https://www.twitch.tv
 - cask [`visual-studio-code`](https://formulae.brew.sh/cask/visual-studio-code) from [`gh/microsoft/vscode`](https://github.com/microsoft/vscode) and https://code.visualstudio.com
 - cask [`vlc`](https://formulae.brew.sh/cask/vlc) from [`gh/videolan/vlc`](https://github.com/videolan/vlc) and https://www.videolan.org/vlc
 - formula [`act`](https://formulae.brew.sh/formula/act) from [`gh/nektos/act`](https://github.com/nektos/act)
@@ -80,6 +79,8 @@ Don't use them anymore
 
 >All casks and formulas here should be kept in sync with [`brewfile`](brewfile) and the uninstaller in [`brew.zsh`](brew.zsh)
 
+- do not exist anymore
+  - cask [`twitch`](https://formulae.brew.sh/cask/twitch) from [`gh/twitchtv`](https://github.com/twitchtv) and https://www.twitch.tv
 - fuck ups
   - cask [`cheatsheet`](https://formulae.brew.sh/cask/cheatsheet) from https://www.mediaatelier.com/CheatSheet
     - memory leaks
