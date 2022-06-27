@@ -20,6 +20,7 @@ Currently using
 - cask [`raycast`](https://formulae.brew.sh/cask/raycast) from [`gh/raycast`](https://github.com/raycast) and https://www.raycast.com
 - cask [`rectangle`](https://formulae.brew.sh/cask/rectangle) from [`gh/rxhanson/rectangle`](https://github.com/rxhanson/rectangle) and https://rectangleapp.com
 - cask [`spotify`](https://formulae.brew.sh/cask/spotify) from [`gh/spotify`](https://github.com/spotify) and https://www.spotify.com
+- cask [`steam`](https://formulae.brew.sh/cask/steam) from [`gh/valvesoftware`](https://github.com/ValveSoftware) and https://store.steampowered.com
 - cask [`stremio`](https://formulae.brew.sh/cask/stremio) from [`gh/stremio`](https://github.com/stremio) and https://www.stremio.com
 - cask [`visual-studio-code`](https://formulae.brew.sh/cask/visual-studio-code) from [`gh/microsoft/vscode`](https://github.com/microsoft/vscode) and https://code.visualstudio.com
 - cask [`vlc`](https://formulae.brew.sh/cask/vlc) from [`gh/videolan/vlc`](https://github.com/videolan/vlc) and https://www.videolan.org/vlc
