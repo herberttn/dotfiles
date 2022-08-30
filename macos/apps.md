@@ -19,6 +19,7 @@ Currently using
 - cask [`postman`](https://formulae.brew.sh/cask/postman) from [`gh/postmanlabs`](https://github.com/postmanlabs) and https://www.postman.com
 - cask [`raycast`](https://formulae.brew.sh/cask/raycast) from [`gh/raycast`](https://github.com/raycast) and https://www.raycast.com
 - cask [`rectangle`](https://formulae.brew.sh/cask/rectangle) from [`gh/rxhanson/rectangle`](https://github.com/rxhanson/rectangle) and https://rectangleapp.com
+- cask [`responsively`](https://formulae.brew.sh/cask/responsively) from [`gh/responsively-org/responsively-app`](https://github.com/responsively-org/responsively-app) and https://www.responsively.app
 - cask [`spotify`](https://formulae.brew.sh/cask/spotify) from [`gh/spotify`](https://github.com/spotify) and https://www.spotify.com
 - cask [`steam`](https://formulae.brew.sh/cask/steam) from [`gh/valvesoftware`](https://github.com/ValveSoftware) and https://store.steampowered.com
 - cask [`stremio`](https://formulae.brew.sh/cask/stremio) from [`gh/stremio`](https://github.com/stremio) and https://www.stremio.com
