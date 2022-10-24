@@ -4,6 +4,7 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/core'
 
 brew 'act'
+brew 'awscli'
 brew 'gh'
 brew 'git'
 brew 'git-revise'
@@ -41,7 +42,6 @@ cask 'vlc'
 
 # All commented casks and formulas here should be kept in sync with the list in apps.md and the uninstaller in brew.zsh
 
-# brew 'awscli'
 # cask 'bluejeans'
 # cask 'cheatsheet'
 # cask 'dropzone'

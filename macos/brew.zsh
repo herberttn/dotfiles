@@ -24,7 +24,6 @@ brew bundle cleanup --file=$fileLocation --force
 
 echo brew: uninstalling bad formulas/casks
 # All casks and formulas here should be kept in sync with brewfile and the list in apps.md
-brew uninstall awscli
 brew uninstall bluejeans
 brew uninstall cheatsheet
 brew uninstall dropzone
