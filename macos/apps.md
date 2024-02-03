@@ -3,6 +3,7 @@ Currently using
 
 - cask [`a-better-finder-rename`](https://formulae.brew.sh/cask/a-better-finder-rename) from https://www.publicspace.net/ABetterFinderRename
 - cask [`alt-tab`](https://formulae.brew.sh/cask/alt-tab) from [`gh/lwouis/alt-tab-macos`](https:github.com/lwouis/alt-tab-macos) and https://alt-tab-macos.netlify.app
+- cask [`beyond-compare`](https://formulae.brew.sh/cask/beyond-compare) from https://www.scootersoftware.com
 - cask [`big-mean-folder-machine`](https://formulae.brew.sh/cask/big-mean-folder-machine) from https://www.publicspace.net/BigMeanFolderMachine
 - cask [`binance`](https://formulae.brew.sh/cask/binance) from [`gh/binance`](https://github.com/binance) and https://www.binance.com
 - cask [`discord`](https://formulae.brew.sh/cask/discord) from [`gh/discord`](https://github.com/discord) and https://discord.com
@@ -15,6 +16,7 @@ Currently using
 - cask [`microsoft-teams`](https://formulae.brew.sh/cask/microsoft-teams) from https://www.microsoft.com/teams
 - cask [`monitorcontrol`](https://formulae.brew.sh/cask/monitorcontrol) from [`gh/monitorcontrol`](https://github.com/monitorcontrol) and https://monitorcontrol.app
 - cask [`notion`](https://formulae.brew.sh/cask/notion) from [`gh/makenotion`](https://github.com/makenotion) and https://www.notion.so
+- cask [`openmtp`](https://formulae.brew.sh/cask/openmtp) from [`gh/ganeshrvel/openmtp`](https://github.com/ganeshrvel/openmtp) and https://openmtp.ganeshrvel.com
 - cask [`parallels`](https://formulae.brew.sh/cask/parallels) from [`gh/parallels`](https://github.com/parallels) and https://www.parallels.com
 - cask [`postman`](https://formulae.brew.sh/cask/postman) from [`gh/postmanlabs`](https://github.com/postmanlabs) and https://www.postman.com
 - cask [`raycast`](https://formulae.brew.sh/cask/raycast) from [`gh/raycast`](https://github.com/raycast) and https://www.raycast.com
