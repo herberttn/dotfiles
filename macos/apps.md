@@ -16,6 +16,7 @@ Currently using
 - cask [`microsoft-teams`](https://formulae.brew.sh/cask/microsoft-teams) from https://www.microsoft.com/teams
 - cask [`monitorcontrol`](https://formulae.brew.sh/cask/monitorcontrol) from [`gh/monitorcontrol`](https://github.com/monitorcontrol) and https://monitorcontrol.app
 - cask [`notion`](https://formulae.brew.sh/cask/notion) from [`gh/makenotion`](https://github.com/makenotion) and https://www.notion.so
+- cask [`nvidia-geforce-now`](https://formulae.brew.sh/cask/nvidia-geforce-now) from https://www.nvidia.com/en-us/geforce-now/download/ and https://abya.com/gfn/en-US/downloads
 - cask [`openmtp`](https://formulae.brew.sh/cask/openmtp) from [`gh/ganeshrvel/openmtp`](https://github.com/ganeshrvel/openmtp) and https://openmtp.ganeshrvel.com
 - cask [`parallels`](https://formulae.brew.sh/cask/parallels) from [`gh/parallels`](https://github.com/parallels) and https://www.parallels.com
 - cask [`postman`](https://formulae.brew.sh/cask/postman) from [`gh/postmanlabs`](https://github.com/postmanlabs) and https://www.postman.com
