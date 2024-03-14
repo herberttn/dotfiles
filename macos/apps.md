@@ -8,6 +8,7 @@ Currently using
 - cask [`binance`](https://formulae.brew.sh/cask/binance) from [`gh/binance`](https://github.com/binance) and https://www.binance.com
 - cask [`discord`](https://formulae.brew.sh/cask/discord) from [`gh/discord`](https://github.com/discord) and https://discord.com
 - cask [`docker`](https://formulae.brew.sh/cask/docker) from [`gh/docker`](https://github.com/docker) and https://www.docker.com
+- cask [`figma`](https://formulae.brew.sh/cask/figma) from https://www.figma.com
 - cask [`firefox`](https://formulae.brew.sh/cask/firefox) from [`gh/mozilla`](https://github.com/mozilla) and https://www.mozilla.org/firefox
 - cask [`google-chrome`](https://formulae.brew.sh/cask/google-chrome) from [`gh/googlechrome`](https://github.com/googlechrome) / [`gh/chromium`](https://github.com/chromium) and https://www.google.com/chrome
 - cask [`iterm2`](https://formulae.brew.sh/cask/iterm2) from [`gh/gnachman/iterm2`](https://github.com/gnachman/iterm2) and https://iterm2.com
