@@ -28,34 +28,41 @@
 [commit]
   cleanup = strip
 [core]
-	autocrlf = input
-	eol = lf
+  autocrlf = input
+  eol = lf
   filemode = false
-  safecrlf = true
+  hideDotFiles = dotGitOnly
+  logAllRefUpdates = true
+  safecrlf = false
   warnAmbiguousRefs = true
-  whitespace = blank-at-eof,blank-at-eol,tab-in-indent,tabwidth=2
+  whitespace = tab-in-indent,tabwidth=2,trailing-space
 [diff]
   relative = true
 [fetch]
   prune = true
   pruneTags = true
   showForcedUpdates = true
+  writeCommitGraph = true
 [help]
-	autoCorrect = prompt
+  autoCorrect = prompt
 [index]
-	threads = true
+  threads = true
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [pull]
-	rebase = true
+  rebase = true
 [push]
-	autoSetupRemote = true
-	default = simple
-	useForceIfIncludes = true
+  autoSetupRemote = true
+  default = simple
+  useForceIfIncludes = true
 [rebase]
+  autoSquash = true
   autoStash = true
   missingCommitsCheck = error
   stat = true
+  updateRefs = true
+[rerere]
+  enabled = true
 [reset]
   quiet = false
 [status]
@@ -73,6 +80,6 @@
 [svn-remote "svn"]
   automkdirs = false
 [user]
-	email = 5903869+herberttn@users.noreply.github.com
-	name = herberttn
-	useConfigOnly = true
+  email = 5903869+herberttn@users.noreply.github.com
+  name = herberttn
+  useConfigOnly = true
