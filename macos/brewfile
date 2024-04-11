@@ -42,6 +42,8 @@ cask 'responsively'
 cask 'spotify'
 cask 'steam'
 cask 'stremio'
+cask 'temurin8'
+cask 'temurin11'
 cask 'visual-studio-code'
 cask 'vlc'
 
