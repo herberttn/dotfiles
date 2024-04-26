@@ -6,6 +6,7 @@ Currently using
 - cask [`beyond-compare`](https://formulae.brew.sh/cask/beyond-compare) from https://www.scootersoftware.com
 - cask [`big-mean-folder-machine`](https://formulae.brew.sh/cask/big-mean-folder-machine) from https://www.publicspace.net/BigMeanFolderMachine
 - cask [`binance`](https://formulae.brew.sh/cask/binance) from [`gh/binance`](https://github.com/binance) and https://www.binance.com
+- cask [`bruno`](https://formulae.brew.sh/cask/bruno) from [`gh/usebruno`](https://github.com/usebruno) and https://www.usebruno.com
 - cask [`discord`](https://formulae.brew.sh/cask/discord) from [`gh/discord`](https://github.com/discord) and https://discord.com
 - cask [`docker`](https://formulae.brew.sh/cask/docker) from [`gh/docker`](https://github.com/docker) and https://www.docker.com
 - cask [`figma`](https://formulae.brew.sh/cask/figma) from https://www.figma.com
@@ -21,13 +22,14 @@ Currently using
 - cask [`nvidia-geforce-now`](https://formulae.brew.sh/cask/nvidia-geforce-now) from https://www.nvidia.com/en-us/geforce-now/download/ and https://abya.com/gfn/en-US/downloads
 - cask [`openmtp`](https://formulae.brew.sh/cask/openmtp) from [`gh/ganeshrvel/openmtp`](https://github.com/ganeshrvel/openmtp) and https://openmtp.ganeshrvel.com
 - cask [`parallels`](https://formulae.brew.sh/cask/parallels) from [`gh/parallels`](https://github.com/parallels) and https://www.parallels.com
-- cask [`postman`](https://formulae.brew.sh/cask/postman) from [`gh/postmanlabs`](https://github.com/postmanlabs) and https://www.postman.com
 - cask [`raycast`](https://formulae.brew.sh/cask/raycast) from [`gh/raycast`](https://github.com/raycast) and https://www.raycast.com
 - cask [`rectangle`](https://formulae.brew.sh/cask/rectangle) from [`gh/rxhanson/rectangle`](https://github.com/rxhanson/rectangle) and https://rectangleapp.com
 - cask [`responsively`](https://formulae.brew.sh/cask/responsively) from [`gh/responsively-org/responsively-app`](https://github.com/responsively-org/responsively-app) and https://www.responsively.app
 - cask [`spotify`](https://formulae.brew.sh/cask/spotify) from [`gh/spotify`](https://github.com/spotify) and https://www.spotify.com
 - cask [`steam`](https://formulae.brew.sh/cask/steam) from [`gh/valvesoftware`](https://github.com/ValveSoftware) and https://store.steampowered.com
 - cask [`stremio`](https://formulae.brew.sh/cask/stremio) from [`gh/stremio`](https://github.com/stremio) and https://www.stremio.com
+- cask [`temurin8`](https://github.com/Homebrew/homebrew-cask-versions/blob/master/Casks/temurin8.rb) from [`gh/adoptium/temurin8-binaries`](https://github.com/adoptium/temurin8-binaries) and https://adoptium.net
+- cask [`temurin11`](https://github.com/Homebrew/homebrew-cask-versions/blob/master/Casks/temurin11.rb) from [`gh/adoptium/temurin11-binaries`](https://github.com/adoptium/temurin11-binaries) and https://adoptium.net
 - cask [`visual-studio-code`](https://formulae.brew.sh/cask/visual-studio-code) from [`gh/microsoft/vscode`](https://github.com/microsoft/vscode) and https://code.visualstudio.com
 - cask [`vlc`](https://formulae.brew.sh/cask/vlc) from [`gh/videolan/vlc`](https://github.com/videolan/vlc) and https://www.videolan.org/vlc
 - formula [`act`](https://formulae.brew.sh/formula/act) from [`gh/nektos/act`](https://github.com/nektos/act)
@@ -86,6 +88,21 @@ Don't use them anymore
 
 >All casks and formulas here should be kept in sync with [`brewfile`](brewfile) and the uninstaller in [`brew.zsh`](brew.zsh)
 
+- dropped in favor of another
+  - cask [`postman`](https://formulae.brew.sh/cask/postman) from [`gh/postmanlabs`](https://github.com/postmanlabs) and https://www.postman.com
+    - due to
+      - requiring a cloud account to open
+      - running requests through a cloud proxy
+      - using unreadable proprietary files
+      - saving things to the cloud only
+      - limiting runs unless paid
+    - replaced by cask [`bruno`](https://formulae.brew.sh/cask/bruno) from [`gh/usebruno`](https://github.com/usebruno) and https://www.usebruno.com
+      - which
+        - is local only, no accounts
+        - saves simple and readable files to disk to be shared trough git
+        - does not limit runs
+        - has cli
+        - https://www.usebruno.com/compare/bruno-vs-postman
 - do not exist anymore
   - cask [`twitch`](https://formulae.brew.sh/cask/twitch) from [`gh/twitchtv`](https://github.com/twitchtv) and https://www.twitch.tv
 - fuck ups

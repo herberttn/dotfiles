@@ -30,7 +30,7 @@ brew uninstall dropzone
 brew uninstall hex-fiend
 brew uninstall maccy
 brew uninstall mockuuups-studio
-brew uninstall twitch
+brew uninstall postman
 
 echo brew: removing unused dependencies
 brew autoremove
