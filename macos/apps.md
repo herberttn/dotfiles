@@ -33,6 +33,7 @@ Currently using
 - cask [`visual-studio-code`](https://formulae.brew.sh/cask/visual-studio-code) from [`gh/microsoft/vscode`](https://github.com/microsoft/vscode) and https://code.visualstudio.com
 - cask [`vlc`](https://formulae.brew.sh/cask/vlc) from [`gh/videolan/vlc`](https://github.com/videolan/vlc) and https://www.videolan.org/vlc
 - formula [`act`](https://formulae.brew.sh/formula/act) from [`gh/nektos/act`](https://github.com/nektos/act)
+- formula [`actionlint`](https://formulae.brew.sh/formula/actionlint) from [`gh/rhysd/actionlint`](https://github.com/rhysd/actionlint) and https://rhysd.github.io/actionlint
 - formula [`gh`](https://formulae.brew.sh/formula/gh) from [`gh/cli/cli`](https://github.com/cli/cli) and https://cli.github.com
 - formula [`git-revise`](https://formulae.brew.sh/formula/git-revise) from [`gh/mystor/git-revise`](https://github.com/mystor/git-revise) and https://git-revise.readthedocs.io
 - formula [`git-svn`](https://formulae.brew.sh/formula/git-svn) from [`gh/git/git`](https://github.com/git/git) and https://git-scm.com/docs/git-svn
