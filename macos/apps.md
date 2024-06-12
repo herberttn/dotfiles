@@ -1,6 +1,16 @@
 # brew
 Currently using
-
+- brew [`act`](https://formulae.brew.sh/formula/act) from [`gh/nektos/act`](https://github.com/nektos/act)
+- brew [`actionlint`](https://formulae.brew.sh/formula/actionlint) from [`gh/rhysd/actionlint`](https://github.com/rhysd/actionlint) and https://rhysd.github.io/actionlint
+- brew [`gh`](https://formulae.brew.sh/formula/gh) from [`gh/cli/cli`](https://github.com/cli/cli) and https://cli.github.com
+- brew [`git`](https://formulae.brew.sh/formula/git) from [`gh/git/git`](https://github.com/git/git) and https://git-scm.com
+- brew [`git-revise`](https://formulae.brew.sh/formula/git-revise) from [`gh/mystor/git-revise`](https://github.com/mystor/git-revise) and https://git-revise.readthedocs.io
+- brew [`git-svn`](https://formulae.brew.sh/formula/git-svn) from [`gh/git/git`](https://github.com/git/git) and https://git-scm.com/docs/git-svn
+- brew [`jq`](https://formulae.brew.sh/formula/jq) from [`gh/stedolan/jq`](https://github.com/stedolan/jq) and https://stedolan.github.io/jq
+- brew [`nvm`](https://formulae.brew.sh/formula/nvm) from [`gh/nvm-sh/nvm`](https://github.com/nvm-sh/nvm)
+- brew [`shellcheck`](https://formulae.brew.sh/formula/shellcheck) from [`gh/koalaman/shellcheck`](https://github.com/koalaman/shellcheck) and https://www.shellcheck.net
+- brew [`tree`](https://formulae.brew.sh/formula/tree) from [`gh/adsr/tree`](https://github.com/adsr/tree) and http://mama.indstate.edu/users/ice/tree
+- brew [`zsh`](https://formulae.brew.sh/formula/zsh) from [`zsh-users/zsh`](https://github.com/zsh-users/zsh) and https://www.zsh.org and https://zsh.sourceforge.io
 - cask [`a-better-finder-rename`](https://formulae.brew.sh/cask/a-better-finder-rename) from https://www.publicspace.net/ABetterFinderRename
 - cask [`alt-tab`](https://formulae.brew.sh/cask/alt-tab) from [`gh/lwouis/alt-tab-macos`](https:github.com/lwouis/alt-tab-macos) and https://alt-tab-macos.netlify.app
 - cask [`beyond-compare`](https://formulae.brew.sh/cask/beyond-compare) from https://www.scootersoftware.com
@@ -13,6 +23,7 @@ Currently using
 - cask [`firefox`](https://formulae.brew.sh/cask/firefox) from [`gh/mozilla`](https://github.com/mozilla) and https://www.mozilla.org/firefox
 - cask [`gitbutler`](https://formulae.brew.sh/cask/gitbutler) from [`gh/gitbutlerapp/gitbutler`](https://github.com/gitbutlerapp/gitbutler) and https://www.gitbutler.com
 - cask [`google-chrome`](https://formulae.brew.sh/cask/google-chrome) from [`gh/googlechrome`](https://github.com/googlechrome) / [`gh/chromium`](https://github.com/chromium) and https://www.google.com/chrome
+- cask [`google-drive`](https://formulae.brew.sh/cask/google-drive) from [`gh/googledrive`](https://github.com/googledrive) / [`gh/googleworkspace`](https://github.com/googleworkspace) and https://www.google.com/drive
 - cask [`iterm2`](https://formulae.brew.sh/cask/iterm2) from [`gh/gnachman/iterm2`](https://github.com/gnachman/iterm2) and https://iterm2.com
 - cask [`jetbrains-toolbox`](https://formulae.brew.sh/cask/jetbrains-toolbox) from https://www.jetbrains.com/toolbox-app
 - cask [`kap`](https://formulae.brew.sh/cask/kap) from [`gh/wulkano/kap`](https://github.com/wulkano/kap) and https://getkap.co
@@ -32,16 +43,6 @@ Currently using
 - cask [`temurin11`](https://github.com/Homebrew/homebrew-cask-versions/blob/master/Casks/temurin11.rb) from [`gh/adoptium/temurin11-binaries`](https://github.com/adoptium/temurin11-binaries) and https://adoptium.net
 - cask [`visual-studio-code`](https://formulae.brew.sh/cask/visual-studio-code) from [`gh/microsoft/vscode`](https://github.com/microsoft/vscode) and https://code.visualstudio.com
 - cask [`vlc`](https://formulae.brew.sh/cask/vlc) from [`gh/videolan/vlc`](https://github.com/videolan/vlc) and https://www.videolan.org/vlc
-- formula [`act`](https://formulae.brew.sh/formula/act) from [`gh/nektos/act`](https://github.com/nektos/act)
-- formula [`actionlint`](https://formulae.brew.sh/formula/actionlint) from [`gh/rhysd/actionlint`](https://github.com/rhysd/actionlint) and https://rhysd.github.io/actionlint
-- formula [`gh`](https://formulae.brew.sh/formula/gh) from [`gh/cli/cli`](https://github.com/cli/cli) and https://cli.github.com
-- formula [`git-revise`](https://formulae.brew.sh/formula/git-revise) from [`gh/mystor/git-revise`](https://github.com/mystor/git-revise) and https://git-revise.readthedocs.io
-- formula [`git-svn`](https://formulae.brew.sh/formula/git-svn) from [`gh/git/git`](https://github.com/git/git) and https://git-scm.com/docs/git-svn
-- formula [`git`](https://formulae.brew.sh/formula/git) from [`gh/git/git`](https://github.com/git/git) and https://git-scm.com
-- formula [`jq`](https://formulae.brew.sh/formula/jq) from [`gh/stedolan/jq`](https://github.com/stedolan/jq) and https://stedolan.github.io/jq
-- formula [`nvm`](https://formulae.brew.sh/formula/nvm) from [`gh/nvm-sh/nvm`](https://github.com/nvm-sh/nvm)
-- formula [`shellcheck`](https://formulae.brew.sh/formula/shellcheck) from [`gh/koalaman/shellcheck`](https://github.com/koalaman/shellcheck) and https://www.shellcheck.net
-- formula [`tree`](https://formulae.brew.sh/formula/tree) from [`gh/adsr/tree`](https://github.com/adsr/tree) and http://mama.indstate.edu/users/ice/tree
 
 # non-brew
 Currently using but installed without brew
@@ -122,6 +123,16 @@ Don't use them anymore
 # prospects
 To try
 
+- brew [`httpie`](https://formulae.brew.sh/formula/httpie) from [`gh/httpie/httpie`](https://github.com/httpie/httpie) and https://httpie.io
+- brew [`hugo`](https://formulae.brew.sh/formula/hugo) from [`gh/gohugoio/hugo`](https://github.com/gohugoio/hugo) and https://gohugo.io
+- brew [`mas`](https://formulae.brew.sh/formula/mas) from [`gh/mas-cli/mas`](https://github.com/mas-cli/mas)
+- brew [`thefuck`](https://formulae.brew.sh/formula/thefuck) from [`gh/nvbn/thefuck`](https://github.com/nvbn/thefuck)
+- brew [`tldr`](https://formulae.brew.sh/formula/tldr) from [`gh/tldr-pages/tldr`](https://github.com/tldr-pages/tldr) and https://tldr.sh
+- brew [`vault`](https://formulae.brew.sh/formula/vault) from [`gh/hashicorp/vault`](https://github.com/hashicorp/vault) and https://vaultproject.io
+- brew [`zsh`](https://formulae.brew.sh/formula/zsh) from [`gh/zsh-users/zsh`](https://github.com/zsh-users/zsh) and https://www.zsh.org
+- brew [`zsh-autosuggestions`](https://formulae.brew.sh/formula/zsh-autosuggestions) from [`gh/zsh-users/zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions)
+- brew [`zsh-completions`](https://formulae.brew.sh/formula/zsh-completions) from [`gh/zsh-users/zsh-completions`](https://github.com/zsh-users/zsh-completions)
+- brew [`zsh-syntax-highlighting`](https://formulae.brew.sh/formula/zsh-syntax-highlighting) from [`gh/zsh-users/zsh-syntax-highlighting`](https://github.com/zsh-users/zsh-syntax-highlighting)
 - cask [`brave-browser`](https://formulae.brew.sh/cask/brave-browser) from [`gh/brave/brave-browser`](https://github.com/brave/brave-browser) and https://brave.com
 - cask [`charles`](https://formulae.brew.sh/cask/charles) from https://www.charlesproxy.com
 - cask [`go2shell`](https://formulae.brew.sh/cask/go2shell) from https://zipzapmac.com/Go2Shell
@@ -131,13 +142,3 @@ To try
 - cask [`tower`](https://formulae.brew.sh/cask/tower) from https://www.git-tower.com/mac
 - cask [`typora`](https://formulae.brew.sh/cask/typora) from https://typora.io
 - cask [`wallpaper-wizard`](https://formulae.brew.sh/cask/wallpaper-wizard) from [`gh/macpaw`](https://github.com/macpaw) and https://macpaw.com/wallpaper-wizard / https://wallwiz.com
-- formula [`httpie`](https://formulae.brew.sh/formula/httpie) from [`gh/httpie/httpie`](https://github.com/httpie/httpie) and https://httpie.io
-- formula [`hugo`](https://formulae.brew.sh/formula/hugo) from [`gh/gohugoio/hugo`](https://github.com/gohugoio/hugo) and https://gohugo.io
-- formula [`mas`](https://formulae.brew.sh/formula/mas) from [`gh/mas-cli/mas`](https://github.com/mas-cli/mas)
-- formula [`thefuck`](https://formulae.brew.sh/formula/thefuck) from [`gh/nvbn/thefuck`](https://github.com/nvbn/thefuck)
-- formula [`tldr`](https://formulae.brew.sh/formula/tldr) from [`gh/tldr-pages/tldr`](https://github.com/tldr-pages/tldr) and https://tldr.sh
-- formula [`vault`](https://formulae.brew.sh/formula/vault) from [`gh/hashicorp/vault`](https://github.com/hashicorp/vault) and https://vaultproject.io
-- formula [`zsh-autosuggestions`](https://formulae.brew.sh/formula/zsh-autosuggestions) from [`gh/zsh-users/zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions)
-- formula [`zsh-completions`](https://formulae.brew.sh/formula/zsh-completions) from [`gh/zsh-users/zsh-completions`](https://github.com/zsh-users/zsh-completions)
-- formula [`zsh-syntax-highlighting`](https://formulae.brew.sh/formula/zsh-syntax-highlighting) from [`gh/zsh-users/zsh-syntax-highlighting`](https://github.com/zsh-users/zsh-syntax-highlighting)
-- formula [`zsh`](https://formulae.brew.sh/formula/zsh) from [`gh/zsh-users/zsh`](https://github.com/zsh-users/zsh) and https://www.zsh.org
